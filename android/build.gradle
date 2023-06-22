@@ -20,7 +20,7 @@ android {
     buildToolsVersion safeExtGet("buildToolsVersion", "23.0.1")
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion safeExtGet("targetSdkVersion", 22)
         versionCode 1
         versionName "1.0"
