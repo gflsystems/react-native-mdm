@@ -19,6 +19,8 @@ android {
     compileSdkVersion safeExtGet("compileSdkVersion", 23)
     buildToolsVersion safeExtGet("buildToolsVersion", "23.0.1")
 
+    namespace 'com.robinpowered.RNMDMManager'
+
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion safeExtGet("targetSdkVersion", 22)
